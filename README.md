@@ -12,7 +12,6 @@ Welcome to the ICR Identity project repository! This project is focused on Ident
   - [Installation](#installation)
 - [Usage](#usage)
   - [Data Preparation](#data-preparation)
-  - [ICR Model](#icr-model)
   - [User Interface](#user-interface)
 - [Contributing](#contributing)
 - [License](#license)
@@ -30,7 +29,6 @@ Before you begin, ensure you have the following prerequisites:
 - Python 3.x
 - TensorFlow
 - OpenCV
-- [Pre-trained ICR Model](https://example.com/icr_model_weights.h5)
 - Sample Identity Documents (provided in `sample_documents/`)
 - Sure, here's a template for a README.md file related to an "ICR Identity" project:
 
@@ -88,9 +86,6 @@ Before you begin, ensure you have the following prerequisites:
 # Data Preparation
 
 Prepare sample identity documents by placing them in the sample_documents/ directory. Each document should be a high-resolution image.
-## ICR Model
-
-Use the provided pre-trained ICR model to recognize characters from identity documents. Refer to icr_model_demo.ipynb notebook for a step-by-step example.
 ## User Interface
 
 Implement a user interface to upload and process identity documents. Refer to the user_interface/ directory for an example web-based interface.
