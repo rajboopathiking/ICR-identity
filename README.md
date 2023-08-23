@@ -78,8 +78,8 @@ Before you begin, ensure you have the following prerequisites:
    - cd icr-identity
 
 3. Create a virtual environment (optional but recommended):
-  - python -m venv venv
-   - source venv/bin/activate  # On Windows: venv\Scripts\activate
+    - python -m venv venv
+    - source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 4. Install the required dependencies:
     - pip install -r requirements.txt
