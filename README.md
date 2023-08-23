@@ -50,7 +50,6 @@ Welcome to the ICR Identity project repository! This project is focused on Ident
   - [Installation](#installation)
 - [Usage](#usage)
   - [Data Preparation](#data-preparation)
-  - [ICR Model](#icr-model)
   - [User Interface](#user-interface)
 - [Contributing](#contributing)
 - [License](#license)
@@ -68,23 +67,22 @@ Before you begin, ensure you have the following prerequisites:
 - Python 3.x
 - TensorFlow
 - OpenCV
-- [Pre-trained ICR Model](https://example.com/icr_model_weights.h5)
 - Sample Identity Documents (provided in `sample_documents/`)
 
 ### Installation
 
 1. Clone this repository to your local machine:
-   -git clone https://github.com/your-username/icr-identity.git
+   - git clone https://github.com/your-username/icr-identity.git
 
 2. Navigate to the project directory:
-   -cd icr-identity
+   - cd icr-identity
 
 3. Create a virtual environment (optional but recommended):
-  -python -m venv venv
-   -source venv/bin/activate  # On Windows: venv\Scripts\activate
+  - python -m venv venv
+   - source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 4. Install the required dependencies:
-    -pip install -r requirements.txt
+    - pip install -r requirements.txt
 
 # Usage
 # Data Preparation
